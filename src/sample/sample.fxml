@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Text fill="#227cc6" layoutX="59.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Basic Details">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Text>
+        <Text fx:id="tfname" layoutX="59.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" />
+        <Text fx:id="tid" layoutX="326.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID" />
+        <Text fx:id="temail" layoutX="59.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
+        <Text fx:id="tlname" layoutX="326.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" />
+        <Text fx:id="tcountry" layoutX="59.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Country" />
+        <Text fx:id="tstate" layoutX="235.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="State" />
+        <Text fx:id="tcity" layoutX="410.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City" />
+        <Text fx:id="tphone" layoutX="54.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PhoneNumber" />
+        <TextField fx:id="fname" layoutX="58.0" layoutY="105.0" />
+        <TextField fx:id="userid" layoutX="326.0" layoutY="187.0" />
+        <TextField fx:id="email" layoutX="54.0" layoutY="187.0" />
+        <TextField fx:id="lastname" layoutX="326.0" layoutY="105.0" />
+        <TextField fx:id="refer" layoutX="370.0" layoutY="310.0" />
+        <TextField fx:id="phone" layoutX="54.0" layoutY="310.0" />
+        <ChoiceBox fx:id="country" layoutX="54.0" layoutY="248.0" prefHeight="26.0" prefWidth="133.0" />
+        <TextField fx:id="city" layoutX="410.0" layoutY="248.0" prefHeight="26.0" prefWidth="133.0" />
+        <TextField fx:id="state" layoutX="234.0" layoutY="248.0" prefHeight="26.0" prefWidth="133.0" />
+        <Button fx:id="regcard" layoutX="54.0" layoutY="354.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="105.0" text="Register Card" />
+        <ImageView fx:id="mailcheck" fitHeight="26.0" fitWidth="32.0" layoutX="224.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true" />
+        <Text fx:id="tcity1" layoutX="175.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reset card" />
+    </children>
+</AnchorPane>
